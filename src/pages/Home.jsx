@@ -98,7 +98,9 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="art-image">
-                        <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?q=80&w=800&auto=format&fit=crop" alt="Chef Plating" />
+
+                        <img src="public\chef.png" alt="Chef Plating" />
+
                     </div>
                 </div>
             </section>
