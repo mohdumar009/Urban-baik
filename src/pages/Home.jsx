@@ -46,12 +46,12 @@ const Home = () => {
     }, []);
 
     const chefSelection = [
-        { id: 1, name: "Margherita Pizza", price: "$14", desc: "Tomato, mozzarella, basil", img: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=600&auto=format&fit=crop" },
-        { id: 2, name: "Pepperoni Pizza", price: "$16", desc: "Spicy pepperoni, cheese", img: "https://images.unsplash.com/photo-1628840042765-356cda07504e?q=80&w=600&auto=format&fit=crop" },
-        { id: 3, name: "Classic Beef Burger", price: "$15", desc: "Angus beef, cheddar", img: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop" },
-        { id: 4, name: "Spicy Chicken Burger", price: "$14", desc: "Fried chicken, spicy sauce", img: "https://images.unsplash.com/photo-1615297928064-24977384d0f9?q=80&w=600&auto=format&fit=crop" },
-        { id: 5, name: "Club Sandwich", price: "$12", desc: "Turkey, bacon, lettuce", img: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=600&auto=format&fit=crop" },
-        { id: 6, name: "Grilled Halloumi Sandwich", price: "$13", desc: "Halloumi, roasted peppers", img: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=600&auto=format&fit=crop" }, // Reuse for now
+        { id: 1, name: "Margherita Pizza", price: "₹14", desc: "Tomato, mozzarella, basil", img: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=600&auto=format&fit=crop" },
+        { id: 2, name: "Pepperoni Pizza", price: "₹16", desc: "Spicy pepperoni, cheese", img: "https://images.unsplash.com/photo-1628840042765-356cda07504e?q=80&w=600&auto=format&fit=crop" },
+        { id: 3, name: "Classic Beef Burger", price: "₹15", desc: "Angus beef, cheddar", img: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop" },
+        { id: 4, name: "Spicy Chicken Burger", price: "₹14", desc: "Fried chicken, spicy sauce", img: "https://images.unsplash.com/photo-1615297928064-24977384d0f9?q=80&w=600&auto=format&fit=crop" },
+        { id: 5, name: "Club Sandwich", price: "₹12", desc: "Turkey, bacon, lettuce", img: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=600&auto=format&fit=crop" },
+        { id: 6, name: "Grilled Halloumi Sandwich", price: "₹13", desc: "Halloumi, roasted peppers", img: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=600&auto=format&fit=crop" }, // Reuse for now
     ];
 
     return (

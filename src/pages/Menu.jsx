@@ -13,7 +13,7 @@ const Menu = () => {
             id: 1,
             category: 'Starters',
             name: "Bruschetta",
-            price: "$8.50",
+            price: "₹8.50",
             desc: "Toasted artisan bread topped with vine-ripened tomatoes, fresh basil, garlic, and extra virgin olive oil.",
             img: "https://images.unsplash.com/photo-1572695157363-bc31c50556e0?q=80&w=600&auto=format&fit=crop",
             tags: ["Vegetarian", "Classic"]
@@ -22,7 +22,7 @@ const Menu = () => {
             id: 2,
             category: 'Starters',
             name: "Calamari Fritti",
-            price: "$12.00",
+            price: "₹12.00",
             desc: "Crispy fried squid rings dusted with seasoned flour, served with our signature spicy marinara sauce.",
             img: "https://images.unsplash.com/photo-1604909052743-94e838986d24?q=80&w=600&auto=format&fit=crop",
             tags: ["Seafood", "Popular"]
@@ -31,7 +31,7 @@ const Menu = () => {
             id: 3,
             category: 'Main Course',
             name: "Grilled Ribeye Steak",
-            price: "$28.00",
+            price: "₹28.00",
             desc: "Prime 12oz ribeye steak, grilled to your preference, served with truffle mashed potatoes and roasted asparagus.",
             img: "https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=600&auto=format&fit=crop",
             tags: ["Meat", "Chef's Choice"]
@@ -40,7 +40,7 @@ const Menu = () => {
             id: 4,
             category: 'Main Course',
             name: "Chicken Alfredo",
-            price: "$18.50",
+            price: "₹18.50",
             desc: "Creamy fettuccine pasta tossed with grilled chicken breast, garlic, and authentic parmesan cheese.",
             img: "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?q=80&w=600&auto=format&fit=crop",
             tags: ["Pasta", "Comfort Food"]
@@ -49,7 +49,7 @@ const Menu = () => {
             id: 5,
             category: 'Main Course',
             name: "Margherita Pizza",
-            price: "$14.00",
+            price: "₹14.00",
             desc: "Traditional Neapolitan pizza with San Marzano tomato sauce, fresh mozzarella di bufala, and basil.",
             img: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=600&auto=format&fit=crop",
             tags: ["Vegetarian", "Pizza"]
@@ -58,7 +58,7 @@ const Menu = () => {
             id: 6,
             category: 'Desserts',
             name: "Tiramisu",
-            price: "$9.00",
+            price: "₹9.00",
             desc: "Classic Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cream, dusted with cocoa.",
             img: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?q=80&w=600&auto=format&fit=crop",
             tags: ["Sweet", "Classic"]
@@ -67,7 +67,7 @@ const Menu = () => {
             id: 7,
             category: 'Desserts',
             name: "Chocolate Lava Cake",
-            price: "$10.50",
+            price: "₹10.50",
             desc: "Rich chocolate cake with a molten center, served warm with a scoop of vanilla bean ice cream.",
             img: "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?q=80&w=600&auto=format&fit=crop",
             tags: ["Sweet", "Hot & Cold"]
@@ -76,7 +76,7 @@ const Menu = () => {
             id: 8,
             category: 'Drinks',
             name: "Mojito",
-            price: "$8.00",
+            price: "₹8.00",
             desc: "Refreshing cocktail with white rum, sugar, lime juice, soda water, and mint.",
             img: "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?q=80&w=600&auto=format&fit=crop",
             tags: ["Cocktail", "Refreshing"]
@@ -85,7 +85,7 @@ const Menu = () => {
             id: 9,
             category: 'Drinks',
             name: "Iced Cappuccino",
-            price: "$6.00",
+            price: "₹6.00",
             desc: "Chilled double shot espresso with milk and milk foam, served over ice.",
             img: "https://images.unsplash.com/photo-1517701604599-bb29b5c73553?q=80&w=600&auto=format&fit=crop",
             tags: ["Coffee", "Cold"]
@@ -94,7 +94,7 @@ const Menu = () => {
             id: 10,
             category: 'Starters',
             name: "Garlic Prawns",
-            price: "$14.00",
+            price: "₹14.00",
             desc: "Juicy prawns sautéed in garlic, butter, and white wine sauce.",
             img: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=600&auto=format&fit=crop",
             tags: ["Seafood", "Spicy"]
