@@ -1,0 +1,169 @@
+/* Reservation Styles - Refactored */
+.reservation-page {
+    padding-top: 80px;
+    background-color: #0d0d0d;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.reservation-hero {
+    padding: 5rem 2rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1550966871-3ed3c47e2ce2?q=80&w=1920&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.reservation-hero h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    font-family: var(--font-heading);
+}
+
+.reservation-hero p {
+    font-size: 1.2rem;
+    color: #ccc;
+    letter-spacing: 1px;
+}
+
+.reservation-content {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+.reservation-info {
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.reservation-info h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.reserve-benefit {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.benefit-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--color-accent);
+    color: var(--color-accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.benefit-text h4 {
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+}
+
+.benefit-text p {
+    margin: 0;
+    color: #999;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.policy-card {
+    background: #1a1a1a;
+    padding: 1.5rem;
+    border-radius: 4px;
+    margin-top: 2rem;
+    border-left: 3px solid #666;
+}
+
+.policy-card h3 {
+    font-size: 1.2rem;
+    margin-top: 0;
+    color: #ccc;
+}
+
+.policy-card ul {
+    padding-left: 1.2rem;
+    margin-bottom: 0;
+}
+
+.policy-card li {
+    margin-bottom: 0.5rem;
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.reservation-form-container {
+    flex: 1;
+    background: #252525;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+}
+
+.reservation-form-container h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-family: var(--font-heading);
+    border-bottom: 1px solid #444;
+    padding-bottom: 1rem;
+}
+
+.form-grid-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.res-btn {
+    background: var(--color-accent);
+    color: #000;
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.res-btn:hover {
+    background: #f0c952;
+    transform: translateY(-2px);
+}
+
+.form-note {
+    font-size: 0.8rem;
+    color: #777;
+    text-align: center;
+    margin-top: 1rem;
+    display: block;
+}
+
+@media (max-width: 900px) {
+    .reservation-content {
+        flex-direction: column;
+    }
+
+    .reservation-info {
+        padding-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .reservation-form-container {
+        width: 100%;
+        max-width: 100%;
+    }
+}
